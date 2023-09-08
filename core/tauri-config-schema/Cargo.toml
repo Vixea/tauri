@@ -4,7 +4,7 @@ version = "0.0.0"
 edition = "2021"
 publish = false
 
-[build-dependencies]
+[dependencies]
 tauri-utils = { version = "2.0.0-alpha.4", features = [
   "schema",
 ], path = "../tauri-utils" }
